@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter</title>
+</head>
+<body>
+
+  <!-- <label>
+    Counter:
+    <input type="radio" name="counter" id="increase" onclick="changeCounter(1)">
+    <span id="counter">0</span>
+    <input type="radio" name="counter" id="decrease" onclick="changeCounter(-1)">
+  </label>
+
+  <script>
+    function changeCounter(value) {
+      const counterElement = document.getElementById("counter");
+      let currentCounter = parseInt(counterElement.innerText, 10) || 0;
+      currentCounter += value;
+      counterElement.innerText = currentCounter;
+    }
+  </script> -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter</title>
+  <style>
+    input[type="checkbox"] {
+      display: none;
+    }
+    .button {
+      cursor: pointer;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+  <label class="button" for="increase">
+    <input type="checkbox" id="increase">
+    &#43; <!-- Plus symbol -->
+  </label>
+
+  <span id="counter">0</span>
+
+  <label class="button" for="decrease">
+    <input type="checkbox" id="decrease">
+    &#8722; <!-- Minus symbol -->
+  </label>
+
+  <style>
+    .button {
+      font-size: 20px;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 0 5px;
+    }
+  </style>
+
+</body>
+</html>
+
+
+</body>
+</html>
+
+</body>
+</html>
